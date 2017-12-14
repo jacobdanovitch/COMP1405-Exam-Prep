@@ -1,4 +1,4 @@
-lst = [[1, 2, 3], ["ha", "ke", "ja"], [3.141, 23.366, 1.0101]]
+lst = [[1, 2, 3], ["ha", "ke", "ja"], [3.141, 23.366, 1.010]]
 
 def double(twodim):
 	for i in range(len(twodim)):
