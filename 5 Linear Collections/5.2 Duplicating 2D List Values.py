@@ -1,23 +1,9 @@
-def double(twodim):
-    for i in range(len(twodim)):
-        for j in range(len(twodim[i])):
-            twodim[i][j] *= 2
-    return twodim
+lst = [[1, 2, 3], ["ha", "ke", "ja"], [3.141, 23.366, 1.0101]]
 
+def double(2d_list):
+	for i in range(len(2d_list)):
+		for j in range(len(2d_list)):
+			cool_list[i][j] *= 2
+	return cool_list
 
-test = [
-        [1, "hello"],
-        ["world", 4],
-        [12, 3],
-        ["x", "y"]
-    ]
-
-for row in test:
-    print(row)
-
-print()
-
-doubletest = double(test)
-
-for row in doubletest:
-    print(row)
+print(double(lst))
