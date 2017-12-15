@@ -3,7 +3,7 @@ def initboard():
     for i in range(1,9):
         row = []
         if i == 1:
-            row = ['R','N','B','Q','K','B','N','R']
+            row = ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R']
         elif i == 8:
             row = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r']
         elif i == 2:
